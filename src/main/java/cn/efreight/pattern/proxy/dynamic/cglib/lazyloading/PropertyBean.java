@@ -11,7 +11,7 @@ import lombok.Setter;
 public class PropertyBean {
 
     private String key;
-    private Object value;
+    private Integer value;
 
     @Override
     public String toString() {

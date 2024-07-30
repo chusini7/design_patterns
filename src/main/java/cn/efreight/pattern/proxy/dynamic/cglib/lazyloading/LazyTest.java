@@ -15,14 +15,14 @@ public class LazyTest {
 
         LazyBean lazyBean = new LazyBean("张三", 18);
         System.out.println("------------------");
+
+        // 只有调用代理对象中的方法才会触发
         PropertyBean propertyBean = lazyBean.getPropertyBean();
         System.out.println(propertyBean.getKey());
         System.out.println(propertyBean.getValue());
         System.out.println("------------------");
-        PropertyBean propertyBean2 = lazyBean.getPropertyBean();
-        System.out.println(propertyBean2.getKey());
-        System.out.println(propertyBean2.getValue());
-        System.out.println("------------------");
+
+        // 只有调用代理对象中的方法才会触发
         PropertyBean propertyBeanDispatcher = lazyBean.getPropertyBeanDispatcher();
         System.out.println(propertyBeanDispatcher.getKey());
         System.out.println(propertyBeanDispatcher.getValue());

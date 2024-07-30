@@ -1,6 +1,5 @@
 package cn.efreight.pattern.proxy.dynamic.cglib.lazyloading;
 
-import cn.efreight.pattern.proxy.dynamic.cglib.TargetObject;
 import net.sf.cglib.proxy.LazyLoader;
 
 /**
@@ -15,11 +14,10 @@ public class ConcreteClassLazyLoader implements LazyLoader {
      */
     @Override
     public Object loadObject() throws Exception {
-        System.out.println("before lazyLoader...");
+        System.out.println("LazyLoader loadObject() run...");
         PropertyBean propertyBean = new PropertyBean();
         propertyBean.setKey("obj");
-        propertyBean.setValue(new TargetObject());
-        System.out.println("after lazyLoader...");
+        propertyBean.setValue(20);
         return propertyBean;
     }
 
