@@ -2,7 +2,6 @@ package cn.efreight.pattern.factory;
 
 /**
  * @author libiao
- * @date 2024/7/16
  */
 public class GirlRobot implements Robot {
 

@@ -6,7 +6,6 @@ import java.util.ArrayList;
  * 订阅主题的实现类
  *
  * @author libiao
- * @date 2024/7/16
  */
 public class SubjectA implements Subject {
 

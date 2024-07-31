@@ -4,7 +4,6 @@ package cn.efreight.pattern.adapter;
  * 适配器，把220V电压变成5V
  *
  * @author libiao
- * @date 2024/7/16
  */
 public class V5PowerAdapter implements V5Power {
 

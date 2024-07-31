@@ -2,7 +2,6 @@ package cn.efreight.pattern.decorator.v2;
 
 /**
  * @author libiao
- * @date 2024/7/17
  */
 public abstract class WeaponsDecorator implements Weapons {
 

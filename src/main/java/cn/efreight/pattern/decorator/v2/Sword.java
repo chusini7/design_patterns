@@ -4,7 +4,6 @@ package cn.efreight.pattern.decorator.v2;
  * 剑
  *
  * @author libiao
- * @date 2024/7/17
  */
 public class Sword implements Weapons {
 

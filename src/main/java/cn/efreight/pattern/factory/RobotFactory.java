@@ -4,7 +4,6 @@ package cn.efreight.pattern.factory;
  * 机器人工厂
  *
  * @author libiao
- * @date 2024/7/16
  */
 public class RobotFactory {
 

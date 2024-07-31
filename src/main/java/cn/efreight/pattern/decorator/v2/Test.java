@@ -4,7 +4,6 @@ package cn.efreight.pattern.decorator.v2;
  * 装饰者模式测试
  *
  * @author libiao
- * @date 2024/7/17
  */
 public class Test {
 

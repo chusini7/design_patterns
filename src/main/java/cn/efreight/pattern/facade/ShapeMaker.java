@@ -1,5 +1,8 @@
 package cn.efreight.pattern.facade;
 
+/**
+ * @author libiao
+ */
 public class ShapeMaker {
 
     private Shape circle;

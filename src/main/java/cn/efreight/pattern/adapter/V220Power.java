@@ -4,7 +4,6 @@ package cn.efreight.pattern.adapter;
  * 家用220V交流电
  *
  * @author libiao
- * @date 2024/7/16
  */
 public class V220Power {
 

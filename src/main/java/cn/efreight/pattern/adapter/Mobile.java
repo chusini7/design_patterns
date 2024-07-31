@@ -2,7 +2,6 @@ package cn.efreight.pattern.adapter;
 
 /**
  * @author libiao
- * @date 2024/7/16
  */
 public class Mobile {
 

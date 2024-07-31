@@ -6,7 +6,6 @@ import lombok.ToString;
  * 观察者B
  *
  * @author libiao
- * @date 2024/7/16
  */
 @ToString
 public class ObserverB implements Observer {

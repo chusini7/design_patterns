@@ -2,7 +2,6 @@ package cn.efreight.pattern.command.v3;
 
 /**
  * @author libiao
- * @date 2024/7/17
  */
 public class Test {
 

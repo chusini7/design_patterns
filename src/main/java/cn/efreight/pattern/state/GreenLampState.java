@@ -4,7 +4,6 @@ package cn.efreight.pattern.state;
  * 绿灯
  *
  * @author libiao
- * @date 2024/7/18
  */
 public class GreenLampState extends LampState {
 

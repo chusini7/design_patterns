@@ -4,7 +4,6 @@ package cn.efreight.pattern.observer;
  * 观察者模式测试类
  *
  * @author libiao
- * @date 2024/7/16
  */
 public class Test {
 

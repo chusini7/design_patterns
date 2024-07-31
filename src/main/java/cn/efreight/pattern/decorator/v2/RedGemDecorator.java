@@ -5,7 +5,6 @@ package cn.efreight.pattern.decorator.v2;
  * 红宝石增加 20攻击力
  *
  * @author libiao
- * @date 2024/7/17
  */
 public class RedGemDecorator extends WeaponsDecorator {
 

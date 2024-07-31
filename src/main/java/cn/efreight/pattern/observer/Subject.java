@@ -4,7 +4,6 @@ package cn.efreight.pattern.observer;
  * 专题接口,所有的主题必须实现此接口
  *
  * @author libiao
- * @date 2024/7/16
  */
 interface Subject {
 
